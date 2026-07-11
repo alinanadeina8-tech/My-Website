@@ -4,6 +4,15 @@
     gap: 5px;
 }
 
+
+@font-face {
+    font-family: "RoadRage";
+    src: url("fonts/RoadRage-Regular.ttf");
+}
+
+.navbar{
+    font-family:"RoadRage";
+}
 .container1{
     display: flex;
     background-color: hsl(0, 0%, 6%);
@@ -96,7 +105,6 @@ border-radius: 5px;
 .navbar a{
     color: rgb(121, 112, 112);
     text-decoration: none;
-    font-family: RoadRage;
     margin-left: 10px;
     margin-right: 10px;
     
@@ -138,10 +146,6 @@ footer a{
     color: tomato;
 }
 
-@font-face {
-    font-family: RoadRage;
-    src: url(/My-Website/docs/fonts/RoadRage-Regular.ttf);
-}
 
 .dropdown button{
     font-size:1.1em;
